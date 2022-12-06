@@ -17,6 +17,7 @@
             "helper/function/env.php",
             "helper/function/is.php",
             "helper/function/jsonFile.php",
+            "helper/function/num.php",
             "helper/function/path.php",
             "helper/function/prepare.php",
             "helper/function/str.php",
