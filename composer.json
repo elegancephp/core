@@ -1,0 +1,30 @@
+{
+    "name": "elegance/core",
+    "description": "Núcleo de uma aplicação Elegance",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        },
+        "files": [
+            "helper/function/dbug.php",
+            "helper/function/env.php",
+            "helper/function/is.php",
+            "helper/function/jsonFile.php",
+            "helper/function/path.php",
+            "helper/function/prepare.php",
+            "helper/function/str.php",
+            "helper/script/env.php"
+        ]
+    },
+    "require": {
+        "php": "^8.1",
+        "ext-mbstring": "*"
+    }
+}
