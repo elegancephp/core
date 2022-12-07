@@ -13,7 +13,7 @@
             "": "class/"
         },
         "files": [
-            "helper/constant/normal_chat.php",
+            "helper/constant/normal_char.php",
             "helper/function/accent.php",
             "helper/function/dbug.php",
             "helper/function/env.php",
