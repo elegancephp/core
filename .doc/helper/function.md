@@ -1,9 +1,13 @@
 ### Helper Function
 
-**remove_accents**: Remove a acentuação de uma string
+**colorHex**: Converte uma string de cor RGB em uma string de cor Hexadecimal
 
-    remove_accents(string $string): string
+    colorHex(string $color): string
+    
+**colorRGB**: Converte uma string de cor Hexadecimal em uma string de cor RGB
 
+    colorRGB(string $color): string
+    
 ---
 
 **dbug**: Realiza o var_dump de variaveis
@@ -109,6 +113,12 @@
 **prepare**: Prepara um texto para ser exibido subistituindo ocorrencias do template
 
     prepare(string $string, array|string $prepare = []): string
+
+---
+
+**remove_accents**: Remove a acentuação de uma string
+
+    remove_accents(string $string): string
 
 ---
 

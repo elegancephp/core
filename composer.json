@@ -10,11 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "": "class/"
+            "": "source/"
         },
         "files": [
             "helper/constant/normal_char.php",
-            "helper/function/accent.php",
+            "helper/constant/time.php",
+            "helper/function/color.php",
             "helper/function/dbug.php",
             "helper/function/env.php",
             "helper/function/is.php",
@@ -22,6 +23,7 @@
             "helper/function/num.php",
             "helper/function/path.php",
             "helper/function/prepare.php",
+            "helper/function/remove_accents.php",
             "helper/function/str.php",
             "helper/script/env.php"
         ]
